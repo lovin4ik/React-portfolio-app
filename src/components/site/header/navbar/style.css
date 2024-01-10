@@ -1,0 +1,21 @@
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.menu > li > a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-bottom: 1px;
+  transition: 0.3s;
+}
+
+.menu > li > a:hover {
+  color: #ededed;
+}
+
+.actives {
+  border-bottom: 3px solid #5c62ec;
+}

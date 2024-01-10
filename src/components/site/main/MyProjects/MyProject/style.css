@@ -1,0 +1,17 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  max-width: 370px;
+  box-shadow: 0px 5px 35px 0px #00000040;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 0;
+}
+
+.project > h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  color: #171718;
+  padding: 15px 0 25px 20px;
+}
