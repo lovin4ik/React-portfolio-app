@@ -9,10 +9,9 @@ const NavBar = () => {
 
 	return ( 
 		<nav className="navbar">
-			<NavLink className='logo'>
+			<NavLink className='logo' to='/'>
 				<span>Freelancer</span> portfolio
 			</NavLink>
-			{/* <a href="logo" className='logo'><span>Freelancer</span> portfolio</a> */}
 			<ul className="menu">
 				<li>
 					<NavLink to="/" className={({isActive}) => {
